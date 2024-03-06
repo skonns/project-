@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.restaurant-menu {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.restaurant-menu h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Warna teks hitam */
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu-item-details {
+  margin-top: 10px;
+}
+
+.menu-item-details h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #000000; /* Warna teks hitam */
+}
+
+.menu-item-details p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000000; /* Warna teks abu-abu */
+}
+
+.price {
+  font-weight: bold;
+}
+
+.order-button {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.order-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,25 @@
+{
+    "error": false,
+    "massage": "success",
+    "count": 1,
+    "admins": [
+        {
+          "id": 1,
+          "username": "admin1",
+          "email": "admin1@example.com",
+          "password": "password1"
+        },
+        {
+          "id": 2,
+          "username": "admin2",
+          "email": "admin2@example.com",
+          "password": "password2"
+        },
+        {
+          "id": 3,
+          "username": "admin3",
+          "email": "admin3@example.com",
+          "password": "password3"
+        }
+      ]      
+}
